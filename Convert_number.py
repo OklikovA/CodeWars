@@ -2,6 +2,11 @@
 # числа в массиве в обратном порядке.
 
 def digitize(n):
+    """
+    Выводит число в обратном порядке
+    :param n:
+    :return:
+    """
     return [int(digit) for digit in str(n)[::-1]]
 
 

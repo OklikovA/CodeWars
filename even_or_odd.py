@@ -2,6 +2,11 @@
 # возвращает значение "Even"для четных чисел или "Odd"для нечетных чисел.
 
 def even_or_odd(number):
+    """
+    Выводит Even если число четное, Odd если не четное
+    :param number:
+    :return:
+    """
     if number % 2 == 0:
         return 'Even'
     else:

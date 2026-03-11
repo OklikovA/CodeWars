@@ -2,6 +2,11 @@
 # результирующую строку.
 
 def no_space(x):
+    """
+    Удаляет пробелы
+    :param x:
+    :return: Текст без пробелов
+    """
     str = x.replace(" ", "")
     return(str)
 
