@@ -11,5 +11,4 @@ def digitize(n):
 
 
 n = int(input())
-result = digitize(n)
-print(result)
+print(digitize(n))

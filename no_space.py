@@ -7,10 +7,8 @@ def no_space(x):
     :param x:
     :return: Текст без пробелов
     """
-    str = x.replace(" ", "")
-    return(str)
+    return x.replace(" ", "")
 
 x = input()
-nospase = no_space(x)
-print(nospase)
+print(no_space(x))
 
